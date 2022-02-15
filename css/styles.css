@@ -86,7 +86,8 @@ body {
     background-color: var(--secondary-bg-color);
     }
   
-.order-but {
+.order-btn {
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -96,8 +97,8 @@ body {
     cursor: pointer;
     border-radius: 4px
     }
-.order-but:hover, 
-.order-but:focus {
+.order-btn:hover, 
+.order-btn:focus {
   background-color: var(--akcent-color);
 }
 .hero-title {
@@ -114,7 +115,6 @@ body {
       font-size: 36px;
       line-height: 1.16;
       text-align: center;
-      text-transform: uppercase;
       color: var(--title-color);
         }
 .comand-subtitle {
@@ -129,6 +129,7 @@ body {
        }
 /*portfolio*/
 .filter-btn {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -166,12 +167,11 @@ body {
       
       
 .address-city {
+  font-style: normal;
   color: #FFFFFF;
   }
-
-.address-city .link {
-   color: inherit;
-  }
-.address-mail, .address-phone {
+  
+  .address-mail, .address-phone {
+  font-style: normal;
       color: rgba(255, 255, 255, 0.6);
-           }
+  }
